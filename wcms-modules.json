@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-hindi": {
+            "name": "Translation Hindi",
+            "repo": "https://github.com/robiso/translation-hindi/tree/master",
+            "zip": "https://github.com/robiso/translation-hindi/archive/master.zip",
+            "summary": "Hindi (हिंदी) translation for WonderCMS settings.",
+            "version": "1.0",
+            "image": "https://raw.githubusercontent.com/robiso/translation-hindi/master/preview.jpg"
+        }
+    }
+}
