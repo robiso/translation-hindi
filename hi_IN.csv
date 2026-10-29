@@ -23,7 +23,7 @@ CURRENT PAGE
     ">Page description",">पृष्ठ विवरण"
     "> Delete page","> पृष्ठ हटाएं"
     "return confirm\('Delete (.*?)\?'\)","return confirm('हटाएं $1?')"
-    "data-confirm=""Delete (.*?)\?""","data-confirm=""हटाएं $1?"""
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""$1 हटाएँ?"""
 
 
 MENU
@@ -48,10 +48,10 @@ THEMES AND PLUGINS
     "title=""Remove this repository from the list""","title=""इस भंडार को सूची से हटाएं"""
     "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""$1 को हटाएं? इससे इंस्टॉल किया गया सब कुछ बना रहेगा।"""
     "return confirm\('Remove (.*?)\?'\)","return confirm('निकालें $1?')"
-    "data-confirm=""Remove (.*?)\?""","data-confirm=""निकालें $1?"""
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""$1 निकालें?"""
     ">Active",">सक्रिय"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('सक्रिय $1?')"
-    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""सक्रिय $1?"""
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""$1 थीम सक्रिय करें?"""
     "data-confirm=""Disable (.*?)\?""","data-confirm=""$1 को निष्क्रिय करें?"""
     "data-confirm=""This is an editor plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""यह एक संपादक प्लग-इन है। $1 इंस्टॉल करने से $2 निष्क्रिय हो जाएगा। जारी रखें?"""
     "data-confirm=""This is an translation plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""यह एक अनुवाद प्लग-इन है। $1 इंस्टॉल करने से $2 निष्क्रिय हो जाएगा। जारी रखें?"""
@@ -129,10 +129,10 @@ FOOTER
 
 
 ALERTS
-    "This page \(([^<]*?)\) is private: only you see it while logged in, visitors get the 404 page and search skips it\.","यह पृष्ठ ($1) निजी है: लॉग इन रहते हुए केवल आप इसे देख सकते हैं, आगंतुकों को 404 पृष्ठ मिलता है और खोज इसे छोड़ देती है।"
+    "This page \(([^<]*?)\) is private: only you see it while logged in, visitors get the 404 page and search skips it\.","यह पृष्ठ ($1) निजी है: लॉग इन रहने पर केवल आप इसे देख सकते हैं, आगंतुकों को 404 पृष्ठ दिखाई देता है और यह खोज परिणामों में दिखाई नहीं देता।"
     "<b>Open menu settings<\/b>","<b>मेन्यू समायोजन खोलें</b>"
     "The home page, the pages above it and the 404 page cannot be private: visitors would get the 404 page at the site address\. Choose another home page first\.","मुख पृष्ठ, उसके ऊपर के पृष्ठ और 404 पृष्ठ निजी नहीं हो सकते: आगंतुकों को साइट के पते पर 404 पृष्ठ मिलेगा। पहले कोई दूसरा मुख पृष्ठ चुनें।"
-    "Page <b>([^<]*)<\/b> is now private: only you see it while logged in, visitors get the 404 page and search skips it\.","पृष्ठ <b>$1</b> अब निजी है: लॉग इन रहते हुए केवल आप इसे देख सकते हैं, आगंतुकों को 404 पृष्ठ मिलता है और खोज इसे छोड़ देती है।"
+    "Page <b>([^<]*)<\/b> is now private: only you see it while logged in, visitors get the 404 page and search skips it\.","पृष्ठ <b>$1</b> अब निजी है: लॉग इन रहने पर केवल आप इसे देख सकते हैं, आगंतुकों को 404 पृष्ठ दिखाई देता है और यह खोज परिणामों में दिखाई नहीं देता।"
     "Page <b>([^<]*)<\/b> is now public\.","पृष्ठ <b>$1</b> अब सार्वजनिक है।"
     "^Page not found\.$","पृष्ठ नहीं मिला।"
     "^Custom module not found\.$","कस्टम मॉड्यूल नहीं मिला।"
@@ -145,7 +145,7 @@ ALERTS
     "^Wrong password\.$","गलत पासवर्ड।"
     "^Cannot get content from url \(HTTP (\d+)\)\.$","URL से सामग्री प्राप्त नहीं की जा सकी (HTTP $1)।"
     "^Cannot get content from url\.$","URL से सामग्री प्राप्त नहीं की जा सकी।"
-    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","डाउनलोड की गई फ़ाइल पूर्ण और नया WonderCMS कोर नहीं थी; कुछ भी नहीं बदला गया। कुछ मिनट बाद फिर से प्रयास करें।"
+    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","डाउनलोड की गई फ़ाइल में मौजूदा संस्करण से नया और पूर्ण WonderCMS कोर नहीं था; कुछ भी नहीं बदला गया। कुछ मिनट बाद फिर से प्रयास करें।"
     "Could not write the new index\.php\. Check the free disk space and the permissions of index\.php and its folder, then try again\.","नई index.php लिखी नहीं जा सकी। डिस्क में खाली जगह और index.php तथा उसके फ़ोल्डर की अनुमतियाँ जाँचें, फिर दोबारा प्रयास करें।"
     "Theme <b>([^<]*)<\/b> is not installed\. Showing the Sky theme instead\.","थीम <b>$1</b> इंस्टॉल नहीं है। इसके बजाय Sky थीम दिखाई जा रही है।"
     "Theme <b>([^<]*)<\/b> failed to load: ","थीम <b>$1</b> लोड नहीं हो सकी: "
