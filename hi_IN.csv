@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">पृष्ठ विवरण"
     "> Delete page","> पृष्ठ हटाएं"
     "return confirm\('Delete (.*?)\?'\)","वापसी की पुष्टि ('हटाएं $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""हटाएं $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> अद्यतन के लिए जाँच"
     "return confirm\('Remove (.*?)\?'\)","वापसी की पुष्टि ('निकालें $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""निकालें $1?"""
     ">Active",">सक्रिय"
     "return confirm\('Activate (.*?) theme\?'\)","वापसी की पुष्टि ('सक्रिय $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""सक्रिय $1?"""
     "> Activate","> सक्रिय"
     "> More info","> और जानकारी"
     "> Install","> इंस्टॉल"
