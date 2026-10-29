@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> समायोजन"
+    "return confirm\('Log out\?'\)","return confirm('लॉग आउट करें?')"
 
 
 MENU ITEMS
@@ -21,6 +22,7 @@ CURRENT PAGE
     ">Page keywords",">पेज कीवर्ड"
     ">Page description",">पृष्ठ विवरण"
     "> Delete page","> पृष्ठ हटाएं"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('हटाएं $1?')"
     "data-confirm=""Delete (.*?)\?""","data-confirm=""हटाएं $1?"""
 
 
@@ -28,6 +30,10 @@ MENU
     ">Website title","> वेबसाइट शीर्षक"
     ">Page to display on homepage","> पृष्ठ को घर पर प्रदर्शित करने के लिए"
     ">visit",">यात्रा"
+    "title=""Make page private \(only you see it while logged in\)""","title=""पृष्ठ को निजी बनाएं (लॉग इन रहते हुए केवल आप इसे देख सकते हैं)"""
+    "title=""Make page public""","title=""पृष्ठ को सार्वजनिक बनाएं"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> निजी</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> सार्वजनिक</a>"
     "> Add page","> पृष्ठ जोड़ें"
 
 
@@ -38,15 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> अद्यतन के लिए जाँच"
+    "title=""Remove this repository from the list""","title=""इस भंडार को सूची से हटाएं"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""$1 को हटाएं? इससे इंस्टॉल किया गया सब कुछ बना रहेगा।"""
+    "return confirm\('Remove (.*?)\?'\)","return confirm('निकालें $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""निकालें $1?"""
     ">Active",">सक्रिय"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('सक्रिय $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""सक्रिय $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""$1 को निष्क्रिय करें?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""यह एक $1 प्लग-इन है। $2 इंस्टॉल करने से $3 निष्क्रिय हो जाएगा। जारी रखें?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""यह एक $1 प्लग-इन है। $2 अपडेट करने पर यह सक्रिय रहेगा और $3 निष्क्रिय हो जाएगा। जारी रखें?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""यह एक $1 प्लग-इन है। $2 सक्रिय करने से $3 निष्क्रिय हो जाएगा। जारी रखें?"""
     "> Activate","> सक्रिय"
     "> More info","> और जानकारी"
     "> Install","> इंस्टॉल"
     ">Installed version:",">स्थापित संस्करण:"
     ">Custom repository",">कस्टम भंडार"
     "Enter URL to custom repository","कस्टम रिपॉजिटरी में URL दर्ज करें"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('अज्ञात मॉड्यूल जोड़ना बहुत खतरनाक हो सकता है, क्या आप वाकई जारी रखना चाहते हैं?')"
     "> Add", "> जोड़ना"
     "> Read more about custom repositories",">कस्टम रिपॉजिटरी के बारे में अधिक पढ़ें"
 
@@ -64,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS पुनर्निर्देशित, 30 दिन की कैशिंग, iframes केवल एक ही मूल, माइम प्रकार सूँघने की रोकथाम, सख्त कुकी और रेफरर नीति की अनुमति दी।."
     ">ON \(warning: may break your website\)",">चालू (चेतावनी: आपकी वेबसाइट को तोड़ सकता है)"
     ">OFF \(reset htaccess to default\)",">बंद (डिफ़ॉल्ट के लिए htaccess रीसेट करें)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('क्या आप निश्चित हैं? यदि SSL सही ढंग से कॉन्फ़िगर नहीं है तो इससे आपकी वेबसाइट खराब हो सकती है।')"
     "> Read more before enabling","> सक्षम करने से पहले अधिक पढ़ें"
     ">Backup","> बैकअप"
     "> Backup website","> बैकअप वेबसाइट"
