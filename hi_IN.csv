@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","कस्टम मॉड्यूल नहीं मिला।"
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","कस्टम मॉड्यूल <b>$1</b> को <a $2>$3</a> से हटा दिया गया। इससे इंस्टॉल किया गया सब कुछ तब तक बना रहेगा जब तक आप उसे नहीं हटाते।"
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","मॉड्यूल <a $1>$2</b></a> में सफलतापूर्वक जोड़ा गया।"
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","बाकी सभी पृष्ठ निजी हैं, इसलिए नया मुख पृष्ठ ($1) भी निजी है: आगंतुकों को साइट के पते पर 404 पृष्ठ मिलता है। इसे समायोजन -> मेन्यू में सार्वजनिक करें।"
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","निजी पृष्ठ मुख पृष्ठ नहीं हो सकता: आगंतुकों को साइट के पते पर 404 पृष्ठ मिलेगा। पहले इसे सार्वजनिक करें।"
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","$1 लिखा नहीं जा सका। डिस्क में खाली जगह और data फ़ोल्डर की अनुमतियाँ जाँचें; कुछ भी नहीं बदला गया।"
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","यह पृष्ठ सहेजा नहीं जा सकता: इसका मूल पृष्ठ मौजूद नहीं है। पहले मूल पृष्ठ बनाएं।"
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>अपलोड की गई फ़ाइल देखने के लिए फ़ाइल विकल्प खोलें</b>"
     "^Cannot create ZIP archive\.$","ZIP संग्रह नहीं बनाया जा सका।"
     "^Hide all alerts until next login$","अगले लॉगिन तक सभी सूचनाएँ छिपाएँ"
+    "^Make another page public first: the home page cannot be private\.$","पहले किसी अन्य पृष्ठ को सार्वजनिक करें: मुख पृष्ठ निजी नहीं हो सकता।"
